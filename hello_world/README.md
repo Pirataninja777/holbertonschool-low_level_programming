@@ -18,7 +18,7 @@ was developed by **Dennis Ritchie** at Bell Laboratories in 1972.
 int main() {
     printf("Using printf: Hello, world!\n");
     return 0;
-}
+}\
 
 ### Using `puts`:
 ```c
