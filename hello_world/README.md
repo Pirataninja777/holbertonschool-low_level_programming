@@ -20,10 +20,15 @@ int main() {
     return 0;
 }
 
-**Using** `puts`:
+
+
+
+
+### Using `puts`:
+```c
 #include <stdio.h>
 
 int main() {
-    puts("Using puts: Hello, world!");
+    puts("Using printf: Hello, world!\n");
     return 0;
 }
