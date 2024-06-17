@@ -19,13 +19,3 @@ int main() {
     printf("Using printf: Hello, world!\n");
     return 0;
 }
-
-### Using `printf`:
-```c
-#include <stdio.h>
-
-int main() {
-    puts("Using puts: Hello, world!");
-    return 0;
-}
-
