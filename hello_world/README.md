@@ -18,52 +18,14 @@ was developed by **Dennis Ritchie** at Bell Laboratories in 1972.
 int main() {
     printf("Using printf: Hello, world!\n");
     return 0;
-}\
+}
 
-### Using `puts`:
+### Using `printf`:
 ```c
 #include <stdio.h>
 
 int main() {
     puts("Using puts: Hello, world!");
-    return 0;
-}
-
-### Using `putchar`:
-```c
-#include <stdio.h>
-
-int main() {
-    putchar('U');
-    putchar('s');
-    putchar('i');
-    putchar('n');
-    putchar('g');
-    putchar(' ');
-    putchar('p');
-    putchar('u');
-    putchar('t');
-    putchar('c');
-    putchar('h');
-    putchar('a');
-    putchar('r');
-    putchar(':');
-    putchar(' ');
-    putchar('H');
-    putchar('e');
-    putchar('l');
-    putchar('l');
-    putchar('o');
-    putchar(',');
-    putchar(' ');
-    putchar('w');
-    putchar('o');
-
-   putchar('r');
-    putchar('l');
-    putchar('d');
-    putchar('!');
-    putchar('\n');
     return 0;
 }
 
