@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-sizeof("char,int,long int,float,long long int\n");
+sizeof("char,int,long int,float,long long int");
 return (0);
 }
 
