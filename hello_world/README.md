@@ -11,11 +11,11 @@ was developed by **Dennis Ritchie** at Bell Laboratories in 1972.
 |**Linking**|inally, GCC performs linking. It combines `main.o` with any necessary libraries (like `libc`) and other object files (if any) to produce the final executable program. This step resolves references to functions and symbols from libraries and ensures all parts of the program work together.|
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -An **entry point** in programming is where execution of a program begins, often the `main` function in languages like C.
-|**Printing Text**|**Script**|
-|-----------|--------------|
-|`printf`|`#include <stdio.h>
+### Using `printf`:
+```c
+#include <stdio.h>
 
 int main() {
     printf("Using printf: Hello, world!\n");
     return 0;
-}`|
+}
