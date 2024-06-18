@@ -1,1 +1,1 @@
-Este sera mi readme 
+This is my manual
