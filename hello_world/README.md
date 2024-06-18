@@ -21,14 +21,3 @@ int main() {
 }
 
 
------------------------------------------------------------------------------------------------------
-
-
-### Using `puts`:
-```c
-#include <stdio.h>
-
-int main() {
-    puts("Using printf: Hello, world!\n");
-    return 0;
-}
