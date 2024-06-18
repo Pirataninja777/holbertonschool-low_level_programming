@@ -2,36 +2,29 @@
 #include <time.h>
 #include <stdio.h>
 
-/* Function prototypes */
-int rand(void);
-void srand(unsigned int);
-
-/* Main function */
+/**
+ * main - Determines either greater than 5, is less than 6, or is 0
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int n, last_digit;
+	int n, l;
 
-	srand((unsigned int)time(0)); /* Initialize random seed */
-
-	n = rand(); /* Generate a random number and assign it to n */
-
-	last_digit = n % 10; /* Calculate the last digit of n */
-
-	printf("Last digit of %d is ", n);
-
-	if (last_digit > 5)
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	l = n % 10;
+	if (l > 5)
 	{
-		printf("%d and is greater than 5\n", last_digit);
+		printf("Last digit of %d is %d and is greater than 5\n", n, l);
 	}
-	else if (last_digit == 0)
+	else if (l == 0)
 	{
-		printf("%d and is 0\n", last_digit);
+		printf("Last digit of %d is %d and is 0\n", n, l);
 	}
 	else
 	{
-		printf("%d and is less than 6 and not 0\n", last_digit);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
 	}
-
 	return (0);
 }
-
