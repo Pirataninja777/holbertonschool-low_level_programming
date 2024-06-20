@@ -1,28 +1,27 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_square - Prints a square of '#' characters on the terminal.
- * @size: Size of the square (number of rows and columns).
+ * print_square - prints a square of '#' characters
+ * @size: size of the square
  *
- * Description: Prints a square using '#' characters of dimension size x size.
- * If size is 0 or less, function prints only a newline.
- * Uses putchar function to print characters.
+ * Return: void
  */
 void print_square(int size)
 {
-	int x, y;
+	int i, j;
 
 	if (size <= 0)
 	{
-		putchar('\n');
+		_putchar('\n');
 		return;
 	}
 
-	for (x = 0; x < size; x++)
+	for (i = 0; i < size; i++)
 	{
-		for (y = 0; y < size; y++)
-			putchar('#');
-		putchar('\n');
+		for (j = 0; j < size; j++)
+		{
+			_putchar('#');
+		}
+		_putchar('\n');
 	}
 }
