@@ -6,7 +6,7 @@
  * Description: This function takes a pointer to an integer as parameter
  * and updates the value of the integer it points to, to 98.
 */
-void reset_to_98(int *x)
+void reset_to_98(int *n)
 {
-	*x = 98;
+	*n = 98;
 }
