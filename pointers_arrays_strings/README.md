@@ -5,4 +5,8 @@
 |**Concept|Description|Example Code**|
 |--------|-----------------|---------|
 |*Pointer Declaration*|Declare a pointer by specifying the data type it points to, followed by a `*`.|`int *p;`|
-
+|*Pointer Initialization*|Assign the address of a variable to the pointer using `&`.|`int x = 10; int *p = &x;`|
+|*Dereferencing*|Access the value stored at the memory address pointed to by the pointer.|`int value = *p;`|
+|*Pointer Arithmetic*|Perform arithmetic operations on pointers, useful for arrays.|`*(p + 1)`|
+|*Pointers to Pointers*|A pointer that points to another pointer.|`int **pp = &p;`|
+|*Null Pointers*|A pointer that is not initialized should be set to `NULL`.|`int *p = NULL;`|
