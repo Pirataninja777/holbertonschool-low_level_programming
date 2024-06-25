@@ -27,3 +27,11 @@
 |**Fixed Size**|Yes|
 |**Indexing Start**|0|
 |**Homogeneous Elements**|Yes|
+-----------------------------------------------------------
+|**Scope Type|Description|Example**|
+|------|-------------------|-------|
+|Global Scope|Variables declared outside of all functions, accessible throughout the entire program.|`c int globalVar = 10;`|
+|Local Scope|Variables declared within a block, such as inside a function, accessible only within that block.|`c int main() { int localVar = 20; }`|
+|Function Scope|Parameters passed to a function or variables declared inside a function, accessible within that function.|`c void myFunction(int param) {}`|
+|Block Scope|Variables declared within a block of code (inside {}), accessible only within that block.|`c void myFunction() { { int blockVar = 30; } }`|
+|Static Variables|Variables declared with the `static` keyword within a function, retain their values between function calls.|`c void myFunction() { static int staticVar = 0; }`|
