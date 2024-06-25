@@ -1,5 +1,5 @@
 # C - Pointers, arrays and strings
-==========================================================
+
 [![An interesting video](https://img.youtube.com/vi/DplxIq0mc_Y/0.jpg)](https://www.youtube.com/watch?v=DplxIq0mc_Y)
 --------------------------------------------------------------------------------------
 |**Concept|Description|Example Code**|
@@ -12,7 +12,7 @@
 |*Null Pointers*|A pointer that is not initialized should be set to `NULL`.|`int *p = NULL;`|
 
 ----------------------------------------------------------------------------------------
-[![C arrays](https://img.youtube.com/vi/eE9MnoS0lc0&t=219s/1.jpg)](youtube.com/watch?v=eE9MnoS0lc0&t=219s)
+[![C arrays](https://img.youtube.com/vi/eE9MnoS0lc0&t=219s/0.jpg)](youtube.com/watch?v=eE9MnoS0lc0&t=219s)
 ----------------------------------------------------------------------------------------
 **Array:** is a collection of elements, each identified by an array index or subscript.
 |**Concept|C**|
