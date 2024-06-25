@@ -12,7 +12,7 @@
 |*Null Pointers*|A pointer that is not initialized should be set to `NULL`.|`int *p = NULL;`|
 
 ----------------------------------------------------------------------------------------
-[![C arrays](https://img.youtube.com/vi/eE9MnoS0lc0&t=219s/0.jpg)](youtube.com/watch?v=eE9MnoS0lc0&t=219s)
+[![Second Video](https://img.youtube.com/vi/eE9MnoS0lc0&t=219s/0.jpg)](youtube.com/watch?v=eE9MnoS0lc0&t=219s)
 ----------------------------------------------------------------------------------------
 **Array:** is a collection of elements, each identified by an array index or subscript.
 |**Concept|C**|
