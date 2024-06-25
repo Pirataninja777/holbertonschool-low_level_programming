@@ -11,10 +11,10 @@
 |*Pointers to Pointers*|A pointer that points to another pointer.|`int **pp = &p;`|
 |*Null Pointers*|A pointer that is not initialized should be set to `NULL`.|`int *p = NULL;`|
 
+# **Pointer:** A variable that stores the memory address of another variable. Pointers can point to any data type.
 ----------------------------------------------------------------------------------------
-[![Second Video](https://img.youtube.com/vi/eE9MnoS0lc0&t=219s/0.jpg)](youtube.com/watch?v=eE9MnoS0lc0&t=219s)
-----------------------------------------------------------------------------------------
-**Array:** is a collection of elements, each identified by an array index or subscript.
+# **Array:** A collection of elements of the same type, stored in contiguous memory locations. The size of the array is fixed at compile time.
+
 |**Concept|C**|
 |----|--------|
 |**Declaration**|`int numbers[5];`|
