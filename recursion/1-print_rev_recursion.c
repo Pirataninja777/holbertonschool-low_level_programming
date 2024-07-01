@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _print_rev_recursion - Prints a string in reverse
+ * _print_rev_recursion - Prints a string in reverse.
  *
  * @s: Pointer to the start of the string to be printed
  *
@@ -9,7 +9,7 @@
  * This function recursively prints the characters of the string 's' in reverse order.
  * It first calls itself with the next character and then prints the current character.
  *
- * Return: void (does not return a value)
+ * Return: void.
  */
 void _print_rev_recursion(char *s)
 {
