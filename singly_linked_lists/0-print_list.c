@@ -1,11 +1,10 @@
 #include "lists.h"
 /**
- * print_list: use nodes to printf
- * @h: head
- * return : count
+ * print_list -Prints all the elements of a list_t list.
+ * @h: pointer to list_t list.
+ * Return: nodes count.
  */
 size_t print_list(const list_t *h)
-
 {
 	size_t count = 0;
 
@@ -22,6 +21,5 @@ size_t print_list(const list_t *h)
 		count++;
 		h = h->next;
 	}
-
 	return (count);
 }
