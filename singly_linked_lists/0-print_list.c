@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
- *@h: head
- * use nodes to print
- *return : count
+ * print_list: use nodes to printf
+ * @h: head
+ * return : count
  */
 size_t print_list(const list_t *h)
 
